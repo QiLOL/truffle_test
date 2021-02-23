@@ -1,0 +1,54 @@
+{
+    "eth_getBlockByNumber":{
+        "template": "https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getBlockByNumber",
+        "parameters": ["tag", "boolean"]
+    
+    },
+
+    "eth_getUncleByBlockNumberAndIndex":{
+        "template": "https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getUncleByBlockNumberAndIndex",
+        "parameters":["tag", "index"]
+    },
+
+    "eth_getBlockTransactionCountByNumber":{
+        "template":"https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getBlockTransactionCountByNumber",
+        "parameters": ["tag"]
+    },
+
+    "eth_getTransactionByHash":{
+        "template":"https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getTransactionByHash",
+        "parameters": ["txhash"]
+    },
+
+    "eth_getTransactionByBlockNumberAndIndex":{
+        "template":"https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getTransactionByBlockNumberAndIndex",
+        "parameters": ["tag", "index"]
+    },
+
+    "eth_getTransactionCount":{
+        "template":"https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getTransactionCount",
+        "parameters":["address", "tag"]
+
+    },
+
+
+    "eth_getTransactionReceipt":{
+        "template" : "https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getTransactionReceipt",
+        "parameters": ["txhash"]
+    },
+
+    "eth_getCode":{
+        "template":"https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getCode",
+        "parameters":["address", "tag"]
+    },
+
+    "eth_getStorageAt":{
+        "template":"https://api-ropsten.etherscan.io/api?module=proxy&action=eth_getStorageAt",
+        "parameters":["address","position","tag"]
+    },
+
+    "eth_gasPrice":{
+        "template": "https://api-ropsten.etherscan.io/api?module=proxy&action=eth_gasPrice"
+    }
+
+}
