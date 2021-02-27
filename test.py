@@ -26,8 +26,8 @@ def test(url):
     #print(time_list)
     print(sum(time_list)/len(time_list))
     
-
-key = ["7a1ef7c273aa1ea4ed2a018ba3e491cc345fdca0df6cdce85924f66673ba140a"]
+address = ["0xF2A08313FC79A01AdbC5E700B063ed83Ed07B446"]
+privatekey = ["7a1ef7c273aa1ea4ed2a018ba3e491cc345fdca0df6cdce85924f66673ba140a"]
 
 with open('api.json') as json_file:
     api = json.load(json_file)
